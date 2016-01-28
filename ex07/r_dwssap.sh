@@ -1,1 +1,1 @@
-cat /etc/passwd | grep -v "^[#]" | 
+cat /etc/passwd | grep -v "^[#]" | sort -r | rev
